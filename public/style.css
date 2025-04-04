@@ -1,0 +1,150 @@
+/* Styling the navigation and list items*/
+nav {
+    background-color: aqua;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+/* Styling the sections */
+.first {
+    background-color: black;
+    text-align: center;
+    border: 5px solid turquoise;
+    padding: 20px 10px; 
+    margin-bottom: 20px;
+}
+
+.second {
+    background-color: brown;
+    border: 5px solid  goldenrod;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.third {
+    background-color: darkgreen;
+    border: 5px solid lightblue;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling Text Elements */
+/* First Section */
+.first > h2 {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.first > p {
+    color: blanchedalmond;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.first button>a {
+    color: turquoise;
+    font-size: 15px;
+}
+
+.first button {
+    background-color: cornsilk;
+    position: relative;
+    bottom: 5px;
+}
+
+/* Second Section */
+.second > h2 {
+    color: gold;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.second > p {
+    color: burlywood;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.second button>a {
+    color: goldenrod;
+    font-size: 15px;
+}
+
+.second button {
+    background-color: lavenderblush;
+    position: relative;
+    bottom: 5px;
+}
+
+/* Third Section */
+.third > h2 {
+    color: dimgray;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.third > p {
+    color: lightgray;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.third button>a {
+    color: lightblue;
+    font-size: 15px;
+}
+
+.third button {
+    background-color: darkgreen;
+    position: relative;
+    bottom: 5px;
+}
+
+
+/* First Image */
+.first-image {
+    margin-bottom: 20px;
+}
+
+.first-image > a img {
+    width: 100%;
+    height: 300px;
+}
+
+.first-image > a h2 {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+/* Second Image */
+.second-image > a img {
+    width: 100%;
+    height: 400px;
+}
+
+.second-image a h2 {
+    color: darkgoldenrod;
+}
+
+/* Removing the underlines from links */
+a {
+    text-decoration: none;
+}
