@@ -119,29 +119,22 @@ nav li {
 }
 
 
-/* First Image */
-.first-image {
-    margin-bottom: 20px;
+/* Image section */
+img {
+    height: 250px;
+    width: 640px;
 }
 
-.first-image > a img {
-    width: 100%;
-    height: 300px;
+.images .images-titles  {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
-.first-image > a h2 {
-    color: deepskyblue;
-    text-decoration: none;
-}
-
-/* Second Image */
-.second-image > a img {
-    width: 100%;
-    height: 400px;
-}
-
-.second-image a h2 {
-    color: darkgoldenrod;
+.images .images-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Removing the underlines from links */
